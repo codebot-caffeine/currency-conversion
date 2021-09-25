@@ -1,0 +1,57 @@
+.form-con {
+  width: 20vw;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px #464235bb;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+  background-color: rgb(201, 176, 197);
+}
+
+.background {
+  background-image: radial-gradient(rgb(153, 85, 85), rgb(145, 146, 91));
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  align-self: center;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.heading-1 {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.label-item {
+  display: flex;
+  flex-direction: column;
+  border: 30px;
+  justify-content: flex-start;
+}
+
+.submit-button {
+  background-color: rgb(27, 43, 43);
+  color: #dad4c4e0;
+  width: 70px;
+  height: 40px;
+  align-self: center;
+  margin-top: 20px;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 0.2em;
+}
+
+.forgot-password {
+  align-self: center;
+  color: red;
+}
